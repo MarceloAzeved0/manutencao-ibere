@@ -4,8 +4,7 @@ Passos para executar o projeto
 ### MySQL no Docker
 
 1. Possuir Docker e Docker-Compose instalados no ambiente
-2. Certificar que a porta 3307 está liberada
-    2.1 Executar o comando ``` netstat -a ``` para verificar portas em uso
+2. Certificar que a porta 3307 está liberada, comando ``` netstat -a ``` para verificar portas em uso
 3. Executar o comando ``` $ docker-compose up iberedb```
 4. O Banco de dados deve estar executando na porta 3307 pronto para configuração
 
